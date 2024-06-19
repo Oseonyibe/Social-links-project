@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10,10,10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 280px;
+    background-color: rgb(25, 25, 25);
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    border-radius: 5px;
+    
+}
+img{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+}
+h3{
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    position: relative;
+    top: -10px;
+}
+.location{
+    color: rgb(199, 199, 41);
+    font-size: 0.7rem;
+    position: relative;
+    top: -10px;
+}
+.role{
+    color: whitesmoke;
+    font-size: .6rem;
+    position: relative;
+    top: 10px;
+}
+.socials{
+    background-color: rgb(60,60,60);
+    height: 35px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .6rem;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.socials:hover{
+    background-color: rgb(199, 199, 41);
+}
